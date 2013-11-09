@@ -15,4 +15,8 @@ class AddressesController < ApplicationController
     @latitude = parsed_data["results"][0]["geometry"]["location"]["lat"]
     @longitude = parsed_data["results"][0]["geometry"]["location"]["lng"]
   end
+
+ def lookup
+ end
+
 end
