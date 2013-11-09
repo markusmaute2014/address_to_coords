@@ -10,7 +10,7 @@ class AddressesController < ApplicationController
     url = "http://maps.googleapis.com/maps/api/geocode/json?address=the+corner+of+Foster+and+Sheridan&sensor=false"
     # raw_data = ?
     # parsed_data = ?
-    # @latitude = ?
-    # @longitude = ?
+    @latitude = ?
+    @longitude = ?
   end
 end
